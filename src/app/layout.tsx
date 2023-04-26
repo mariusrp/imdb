@@ -1,18 +1,21 @@
 import Header from '@/components/Header'
+import Providers from "./Providers"
 import './globals.css'
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <body>
-        {/* {Header} */}
-        <Header/>
-        {/* {Navbar} */}
-        {/* {SearchBox} */}
+        <Providers>
+          {/* {Header} */}
+          <Header/>
 
-        {children}
+          {/* {Navbar} */}
+
+          {/* {SearchBox} */}
+
+          {children}
+        </Providers>
       </body>
     </html>
   )
