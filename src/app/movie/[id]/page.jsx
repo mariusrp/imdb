@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GoThumbsup } from "react-icons/Go";
+import { GoThumbsup } from "react-icons/go";
 
 async function getMovie(movieId) {
   const res = await fetch(

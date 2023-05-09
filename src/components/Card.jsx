@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { GoThumbsup } from "react-icons/Go"
+import { GoThumbsup } from "react-icons/go"
 
 
 export default function Card({result}) {
