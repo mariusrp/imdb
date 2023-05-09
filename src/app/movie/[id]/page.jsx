@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FiThumbsUp } from "react-icons/Fi";
+// import { FiThumbsUp } from "react-icons/Fi";
 
 async function getMovie(movieId) {
   const res = await fetch(
@@ -42,7 +42,7 @@ export default async function MoviePage({params}) {
               </p>
               <p className="mb-3">
                 <span className="font-semibold mr-1">Votes:</span>
-                <FiThumbsUp className="inline mr-1 ml-2"/>
+                {/* <FiThumbsUp className="inline mr-1 ml-2"/> */}
                 {movie.vote_count }
               </p>
             </div>
